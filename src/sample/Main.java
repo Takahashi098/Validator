@@ -13,8 +13,7 @@ public class Main {
     
     public static void main(String[] args) {
         
-    System.out.printn("Đây là lần commit 5");
-        System.out.println("Đây là lần commit 4");
+        System.out.println("Bao commit");
         String date = "12/12/2016";
         DateValidator validator = new DateValidator();
         if (validator.checkDateFormat(date)) {
@@ -28,9 +27,5 @@ public class Main {
         else {
             System.out.println("Date format invalid");
         }
-        try {
-            
-        }
-        while
     }
 }
