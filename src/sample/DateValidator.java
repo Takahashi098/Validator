@@ -15,6 +15,7 @@ public class DateValidator {
         
         return date.matches("\\d{2}[/]\\d{2}[/]\\d{4}");
     }
+    
     public boolean validateDate (String date) {
         
         if (checkDateFormat(date)) {
