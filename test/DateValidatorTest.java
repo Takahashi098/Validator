@@ -36,7 +36,7 @@ public class DateValidatorTest {
         assertEquals(false, tester.validateDate("02/29/2018"));
         assertEquals(true, tester.validateDate("02/29/2016"));
         assertEquals(true, tester.validateDate("12/31/2016"));
-        //assertEquals(false, tester.validateDate("12/31/2016")); // check build in jenkins
+        assertEquals(false, tester.validateDate("12/31/2016")); // check build in jenkins
     }
     
 }
